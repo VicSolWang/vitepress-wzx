@@ -1,10 +1,11 @@
-# VitePress (beta) 📝💨
+# vitepress-wzx
 
 [![Test](https://github.com/vuejs/vitepress/workflows/Test/badge.svg)](https://github.com/vuejs/vitepress/actions)
 [![npm](https://img.shields.io/npm/v/vitepress)](https://www.npmjs.com/package/vitepress)
 [![chat](https://img.shields.io/badge/chat-discord-blue?logo=discord)](https://chat.vuejs.org)
 
----
+> vitepress-wzx is forked from Vitepress and fixes the [issue](https://github.com/vuejs/vitepress/issues/2435) that local search cannot be used in node v14.
+
 
 VitePress is [VuePress](https://vuepress.vuejs.org)' spiritual successor, built on top of [vite](https://github.com/vitejs/vite).
 
@@ -24,6 +25,4 @@ Please make sure to read the [Contributing Guide](https://github.com/vuejs/vitep
 
 ## License
 
-[MIT](https://github.com/vuejs/vitepress/blob/main/LICENSE)
-
-Copyright (c) 2019-present, Yuxi (Evan) You
+[MIT](LICENSE).
