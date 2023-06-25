@@ -134,7 +134,7 @@ export async function localSearchPlugin(
             ...sections.map((section) => ({
               id: `${fileId}#${section.anchor}`,
               text: section.text,
-              title: section.titles.at(-1)!,
+              title: section.titles.slice(-1)[0]!,
               titles: section.titles.slice(0, -1)
             }))
           )
@@ -215,7 +215,7 @@ export async function localSearchPlugin(
           index.add({
             id,
             text: section.text,
-            title: section.titles.at(-1)!,
+            title: section.titles.slice(-1)[0]!,
             titles: section.titles.slice(0, -1)
           })
         }
