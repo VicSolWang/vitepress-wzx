@@ -1,6 +1,6 @@
 {
-  "name": "vitepress",
-  "version": "1.0.0-beta.3",
+  "name": "vitepress-wzx",
+  "version": "0.0.1",
   "description": "Vite & Vue powered static site generator",
   "type": "module",
   "packageManager": "pnpm@8.6.3",
@@ -41,18 +41,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/vitepress.git"
+    "url": "git+https://github.com/VicSolWang/vitepress-wzx.git"
   },
   "keywords": [
     "vite",
     "vue",
     "vitepress"
   ],
-  "author": "Evan You",
+  "author": "VICSOLWANG",
   "license": "MIT",
-  "homepage": "https://github.com/vuejs/vitepress/tree/main/#readme",
+  "homepage": "https://github.com/VicSolWang/vitepress-wzx/tree/main/#readme",
   "bugs": {
-    "url": "https://github.com/vuejs/vitepress/issues"
+    "url": "https://github.com/VicSolWang/vitepress-wzx/issues"
   },
   "scripts": {
     "dev": "rimraf dist && run-s dev-shared dev-start",
@@ -179,7 +179,7 @@
     "wait-on": "^7.0.1"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
+    "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
     "*": [
