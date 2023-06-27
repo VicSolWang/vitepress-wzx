@@ -1,7 +1,7 @@
 # vitepress-wzx
 
 [![Test](https://github.com/vuejs/vitepress/workflows/Test/badge.svg)](https://github.com/vuejs/vitepress/actions)
-[![npm](https://img.shields.io/npm/v/vitepress)](https://www.npmjs.com/package/vitepress)
+[![npm](https://img.shields.io/npm/v/vitepress-wzx)](https://www.npmjs.com/package/vitepress-wzx)
 [![chat](https://img.shields.io/badge/chat-discord-blue?logo=discord)](https://chat.vuejs.org)
 
 > vitepress-wzx is forked from Vitepress and fixes the [issue](https://github.com/vuejs/vitepress/issues/2435) that local search cannot be used in node v14.
