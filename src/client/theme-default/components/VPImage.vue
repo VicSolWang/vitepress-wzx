@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { DefaultTheme } from 'vitepress/theme'
-import { withBase } from 'vitepress'
+import type { DefaultTheme } from 'vitepress-wzx/theme'
+import { withBase } from 'vitepress-wzx'
 
 defineProps<{
   image: DefaultTheme.ThemeableImage

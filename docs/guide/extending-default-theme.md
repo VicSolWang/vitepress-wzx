@@ -20,7 +20,7 @@ The default theme CSS is customizable by overriding root level CSS variables:
 
 ```js
 // .vitepress/theme/index.js
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme from 'vitepress-wzx/theme'
 import './custom.css'
 
 export default DefaultTheme
@@ -34,7 +34,7 @@ export default DefaultTheme
 }
 ```
 
-See [default theme CSS variables](https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css) that can be overridden.
+See [default theme CSS variables](https://github.com/VicSolWang/vitepress-wzx/blob/main/src/client/theme-default/styles/vars.css) that can be overridden.
 
 ## Using Different Fonts
 
@@ -44,7 +44,7 @@ To avoid including Inter in the build output, import the theme from `vitepress/t
 
 ```js
 // .vitepress/theme/index.js
-import DefaultTheme from 'vitepress/theme-without-fonts'
+import DefaultTheme from 'vitepress-wzx/theme-without-fonts'
 import './my-fonts.css'
 
 export default DefaultTheme
@@ -92,7 +92,7 @@ export default {
 
 ```js
 // .vitepress/theme/index.js
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme from 'vitepress-wzx/theme'
 
 export default {
   extends: DefaultTheme,
@@ -111,7 +111,7 @@ The default theme's `<Layout/>` component has a few slots that can be used to in
 
 ```js
 // .vitepress/theme/index.js
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme from 'vitepress-wzx/theme'
 import MyLayout from './MyLayout.vue'
 
 export default {
@@ -125,7 +125,7 @@ export default {
 ```vue
 <!--.vitepress/theme/MyLayout.vue-->
 <script setup>
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme from 'vitepress-wzx/theme'
 
 const { Layout } = DefaultTheme
 </script>
@@ -144,7 +144,7 @@ Or you could use render function as well.
 ```js
 // .vitepress/theme/index.js
 import { h } from 'vue'
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme from 'vitepress-wzx/theme'
 import MyComponent from './MyComponent.vue'
 
 export default {
@@ -201,7 +201,7 @@ You can use Vite's [aliases](https://vitejs.dev/config/shared-options.html#resol
 
 ```ts
 import { fileURLToPath, URL } from 'node:url'
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress-wzx'
 
 export default defineConfig({
   vite: {
@@ -219,4 +219,4 @@ export default defineConfig({
 })
 ```
 
-To know the exact name of the component refer [our source code](https://github.com/vuejs/vitepress/tree/main/src/client/theme-default/components). Since the components are internal, there is a slight chance their name is updated between minor releases.
+To know the exact name of the component refer [our source code](https://github.com/VicSolWang/vitepress-wzx/tree/main/src/client/theme-default/components). Since the components are internal, there is a slight chance their name is updated between minor releases.

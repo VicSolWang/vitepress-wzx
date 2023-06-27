@@ -17,11 +17,11 @@ To check out docs, visit [vitepress.dev](https://vitepress.dev).
 
 ## Changelog
 
-Detailed changes for each release are documented in the [CHANGELOG](https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md).
+Detailed changes for each release are documented in the [CHANGELOG](https://github.com/VicSolWang/vitepress-wzx/blob/main/CHANGELOG.md).
 
 ## Contribution
 
-Please make sure to read the [Contributing Guide](https://github.com/vuejs/vitepress/blob/main/.github/contributing.md) before making a pull request.
+Please make sure to read the [Contributing Guide](https://github.com/VicSolWang/vitepress-wzx/blob/main/.github/contributing.md) before making a pull request.
 
 ## License
 

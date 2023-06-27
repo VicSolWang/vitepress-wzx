@@ -86,7 +86,7 @@ The above layout simply renders every page's markdown as HTML. The first improve
 
 ```vue{1-4,9-12}
 <script setup>
-import { useData } from 'vitepress'
+import { useData } from 'vitepress-wzx'
 const { page } = useData()
 </script>
 
@@ -112,7 +112,7 @@ And we can adjust our theme to handle this:
 
 ```vue{3,12-14}
 <script setup>
-import { useData } from 'vitepress'
+import { useData } from 'vitepress-wzx'
 const { page, frontmatter } = useData()
 </script>
 
@@ -133,7 +133,7 @@ You can, of course, split the layout into more components:
 
 ```vue{3-5,12-15}
 <script setup>
-import { useData } from 'vitepress'
+import { useData } from 'vitepress-wzx'
 import NotFound from './NotFound.vue'
 import Home from './Home.vue'
 import Page from './Page.vue'
@@ -210,7 +210,7 @@ Finally, if the theme provides types for its theme config:
 ```ts
 // .vitepress/theme/config.ts
 import baseConfig from 'awesome-vitepress-theme/config'
-import { defineConfigWithTheme } from 'vitepress'
+import { defineConfigWithTheme } from 'vitepress-wzx'
 import type { ThemeConfig } from 'awesome-vitepress-theme'
 
 export default defineConfigWithTheme<ThemeConfig>({

@@ -9,7 +9,7 @@ export default {
   }
 }
 <% } else { %>import { h } from 'vue'
-import Theme from 'vitepress/theme'
+import Theme from 'vitepress-wzx/theme'
 import './style.css'
 
 export default {

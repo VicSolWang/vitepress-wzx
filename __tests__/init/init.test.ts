@@ -9,7 +9,7 @@ import {
   serve,
   ScaffoldThemeType,
   type ScaffoldOptions
-} from 'vitepress'
+} from 'vitepress-wzx'
 import type { ViteDevServer } from 'vite'
 import type { Server } from 'net'
 import getPort from 'get-port'

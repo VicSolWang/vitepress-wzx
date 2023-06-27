@@ -1,5 +1,5 @@
 <script setup>
-import { VPTeamMembers } from 'vitepress/theme'
+import { VPTeamMembers } from 'vitepress-wzx/theme'
 
 const members = [
   {
@@ -33,7 +33,7 @@ You may use `<VPTeamMembers>` component exposed from `vitepress/theme` to displa
 
 ```html
 <script setup>
-import { VPTeamMembers } from 'vitepress/theme'
+import { VPTeamMembers } from 'vitepress-wzx/theme'
 
 const members = [
   {
@@ -81,7 +81,7 @@ import {
   VPTeamPage,
   VPTeamPageTitle,
   VPTeamMembers
-} from 'vitepress/theme'
+} from 'vitepress-wzx/theme'
 
 const members = [
   {
@@ -135,7 +135,7 @@ import {
   VPTeamPageTitle,
   VPTeamMembers,
   VPTeamPageSection
-} from 'vitepress/theme'
+} from 'vitepress-wzx/theme'
 
 const coreMembers = [...]
 const partners = [...]

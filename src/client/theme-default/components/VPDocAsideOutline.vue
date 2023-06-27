@@ -8,7 +8,7 @@ import {
   type MenuItem
 } from '../composables/outline'
 import VPDocOutlineItem from './VPDocOutlineItem.vue'
-import { onContentUpdated } from 'vitepress'
+import { onContentUpdated } from 'vitepress-wzx'
 
 const { frontmatter, theme } = useData()
 

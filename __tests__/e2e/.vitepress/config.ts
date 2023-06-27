@@ -1,4 +1,4 @@
-import { defineConfig, type DefaultTheme } from 'vitepress'
+import { defineConfig, type DefaultTheme } from 'vitepress-wzx'
 
 const sidebar: DefaultTheme.Config['sidebar'] = {
   '/': [

@@ -5,7 +5,7 @@
 VitePress supports fuzzy full-text search using a in-browser index thanks to [minisearch](https://github.com/lucaong/minisearch/). To enable this feature, simply set the `themeConfig.search.provider` option to `'local'` in your `.vitepress/config.ts` file:
 
 ```ts
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress-wzx'
 
 export default defineConfig({
   themeConfig: {
@@ -27,7 +27,7 @@ Alternatively, you can use [Algolia DocSearch](#algolia-search) or some communit
 You can use a config like this to use multilingual search:
 
 ```ts
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress-wzx'
 
 export default defineConfig({
   themeConfig: {
@@ -63,7 +63,7 @@ export default defineConfig({
 VitePress supports searching your docs site using [Algolia DocSearch](https://docsearch.algolia.com/docs/what-is-docsearch). Refer their getting started guide. In your `.vitepress/config.ts` you'll need to provide at least the following to make it work:
 
 ```ts
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress-wzx'
 
 export default defineConfig({
   themeConfig: {
@@ -84,7 +84,7 @@ export default defineConfig({
 You can use a config like this to use multilingual search:
 
 ```ts
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress-wzx'
 
 export default defineConfig({
   themeConfig: {
@@ -143,7 +143,7 @@ export default defineConfig({
 })
 ```
 
-[These options](https://github.com/vuejs/vitepress/blob/main/types/docsearch.d.ts) can be overridden. Refer official Algolia docs to learn more about them.
+[These options](https://github.com/VicSolWang/vitepress-wzx/blob/main/types/docsearch.d.ts) can be overridden. Refer official Algolia docs to learn more about them.
 
 <style>
 img[src="/search.png"] {

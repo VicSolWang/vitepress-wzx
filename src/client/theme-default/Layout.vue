@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useRoute } from 'vitepress'
-import { useSidebar } from 'vitepress/theme'
+import { useRoute } from 'vitepress-wzx'
+import { useSidebar } from 'vitepress-wzx/theme'
 import { computed, provide, useSlots, watch } from 'vue'
 import VPBackdrop from './components/VPBackdrop.vue'
 import VPContent from './components/VPContent.vue'

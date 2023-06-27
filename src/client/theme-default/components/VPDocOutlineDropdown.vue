@@ -3,7 +3,7 @@ import { ref, shallowRef } from 'vue'
 import { useData } from '../composables/data'
 import { getHeaders, resolveTitle, type MenuItem } from '../composables/outline'
 import VPDocOutlineItem from './VPDocOutlineItem.vue'
-import { onContentUpdated } from 'vitepress'
+import { onContentUpdated } from 'vitepress-wzx'
 import VPIconChevronRight from './icons/VPIconChevronRight.vue'
 
 const { frontmatter, theme } = useData()

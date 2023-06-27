@@ -13,7 +13,7 @@
 
 ### External Links
 
-[VitePress on GitHub](https://github.com/vuejs/vitepress)
+[VitePress on GitHub](https://github.com/VicSolWang/vitepress-wzx)
 
 ## GitHub-Style Tables
 
@@ -152,7 +152,7 @@ export default config
 ```
 
 ```ts [config.ts]
-import type { UserConfig } from 'vitepress'
+import type { UserConfig } from 'vitepress-wzx'
 
 const config: UserConfig = {
   // ...

@@ -35,11 +35,11 @@ export function resolveAliases(
       replacement: paths[p]
     })),
     {
-      find: /^vitepress$/,
+      find: /^vitepress-wzx$/,
       replacement: join(DIST_CLIENT_PATH, '/index.js')
     },
     {
-      find: /^vitepress\/theme$/,
+      find: /^vitepress-wzx\/theme$/,
       replacement: join(DIST_CLIENT_PATH, '/theme-default/index.js')
     }
   ]

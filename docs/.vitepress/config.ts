@@ -1,8 +1,8 @@
 import { createRequire } from 'module'
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress-wzx'
 
 const require = createRequire(import.meta.url)
-const pkg = require('vitepress/package.json')
+const pkg = require('vitepress-wzx/package.json')
 
 export default defineConfig({
   lang: 'en-US',
@@ -34,12 +34,13 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern:
+        'https://github.com/VicSolWang/vitepress-wzx/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/VicSolWang/vitepress-wzx' }
     ],
 
     footer: {
@@ -76,11 +77,11 @@ function nav() {
       items: [
         {
           text: 'Changelog',
-          link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'
+          link: 'https://github.com/VicSolWang/vitepress-wzx/blob/main/CHANGELOG.md'
         },
         {
           text: 'Contributing',
-          link: 'https://github.com/vuejs/vitepress/blob/main/.github/contributing.md'
+          link: 'https://github.com/VicSolWang/vitepress-wzx/blob/main/.github/contributing.md'
         }
       ]
     }

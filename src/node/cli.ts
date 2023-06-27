@@ -9,7 +9,7 @@ import { bindShortcuts } from './shortcuts'
 const argv: any = minimist(process.argv.slice(2))
 
 const logVersion = (logger = createLogger()) => {
-  logger.info(`\n  ${c.green(`${c.bold('vitepress')} v${version}`)}\n`, {
+  logger.info(`\n  ${c.green(`${c.bold('vitepress-wzx')} v${version}`)}\n`, {
     clear: !logger.hasWarned
   })
 }

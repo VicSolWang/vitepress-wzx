@@ -1,4 +1,4 @@
-import { inBrowser } from 'vitepress'
+import { inBrowser } from 'vitepress-wzx'
 
 export function useCopyCode() {
   if (inBrowser) {

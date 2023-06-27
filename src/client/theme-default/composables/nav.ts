@@ -1,5 +1,5 @@
 import { ref, watch } from 'vue'
-import { useRoute } from 'vitepress'
+import { useRoute } from 'vitepress-wzx'
 
 export function useNav() {
   const isScreenOpen = ref(false)

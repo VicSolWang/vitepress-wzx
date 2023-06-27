@@ -11,13 +11,13 @@ declare module '*.vue' {
 }
 
 declare module '@siteData' {
-  import type { SiteData } from 'vitepress'
+  import type { SiteData } from 'vitepress-wzx'
   const data: SiteData
   export default data
 }
 
 declare module '@theme/index' {
-  import type { Theme } from 'vitepress'
+  import type { Theme } from 'vitepress-wzx'
   const theme: Theme
   export default theme
 }

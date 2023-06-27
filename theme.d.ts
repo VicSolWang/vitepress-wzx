@@ -1,4 +1,4 @@
-// so that users can do `import DefaultTheme from 'vitepress/theme'`
+// so that users can do `import DefaultTheme from 'vitepress-wzx/theme'`
 import type { DefineComponent } from 'vue'
 import { EnhanceAppContext } from './dist/client/index.js'
 

@@ -1,5 +1,5 @@
 import { useMediaQuery } from '@vueuse/core'
-import { useSidebar } from 'vitepress/theme'
+import { useSidebar } from 'vitepress-wzx/theme'
 import { computed } from 'vue'
 
 export function useAside() {

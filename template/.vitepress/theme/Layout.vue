@@ -1,5 +1,5 @@
 <script setup<%= useTs ? ' lang="ts"' : '' %>>
-import { useData } from 'vitepress'
+import { useData } from 'vitepress-wzx'
 
 // https://vitepress.dev/reference/runtime-api#usedata
 const { site, frontmatter } = useData()

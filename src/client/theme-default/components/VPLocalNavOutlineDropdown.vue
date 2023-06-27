@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onContentUpdated } from 'vitepress'
+import { onContentUpdated } from 'vitepress-wzx'
 import { nextTick, ref } from 'vue'
 import { useData } from '../composables/data'
 import { resolveTitle, type MenuItem } from '../composables/outline'

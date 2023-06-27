@@ -58,7 +58,7 @@ interface PageData {
 
 ```vue
 <script setup>
-import { useData } from 'vitepress'
+import { useData } from 'vitepress-wzx'
 
 const { theme } = useData()
 </script>

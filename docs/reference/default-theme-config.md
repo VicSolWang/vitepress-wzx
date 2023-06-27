@@ -207,7 +207,7 @@ You may define this option to show your social account links with icons in nav.
 export default {
   themeConfig: {
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/VicSolWang/vitepress-wzx' },
       { icon: 'twitter', link: '...' },
       // You can also add custom icons by passing SVG as string:
       {
@@ -278,7 +278,7 @@ Edit Link lets you display a link to edit the page on Git management services su
 export default {
   themeConfig: {
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://github.com/VicSolWang/vitepress-wzx/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     }
   }
@@ -319,7 +319,7 @@ export interface AlgoliaSearchOptions extends DocSearchProps {
 }
 ```
 
-View full options [here](https://github.com/vuejs/vitepress/blob/main/types/docsearch.d.ts).
+View full options [here](https://github.com/VicSolWang/vitepress-wzx/blob/main/types/docsearch.d.ts).
 
 ## carbonAds {#carbon-ads}
 

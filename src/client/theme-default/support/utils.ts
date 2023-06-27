@@ -1,4 +1,4 @@
-import { withBase } from 'vitepress'
+import { withBase } from 'vitepress-wzx'
 import { useData } from '../composables/data'
 import { isExternal, PATHNAME_PROTOCOL_RE } from '../../shared'
 
