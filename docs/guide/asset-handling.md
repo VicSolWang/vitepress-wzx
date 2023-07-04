@@ -67,7 +67,7 @@ In this case it is recommended to wrap the path with the [`withBase` helper](../
 
 ```vue
 <script setup>
-import { withBase, useData } from 'vitepress'
+import { withBase, useData } from 'vitepress-wzx'
 
 const { theme } = useData()
 </script>

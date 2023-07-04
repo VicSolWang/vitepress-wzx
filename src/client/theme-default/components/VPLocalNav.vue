@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { useWindowScroll } from '@vueuse/core'
-import { onContentUpdated } from 'vitepress'
-import { useSidebar } from 'vitepress/theme'
+import { onContentUpdated } from 'vitepress-wzx'
+import { useSidebar } from 'vitepress-wzx/theme'
 import { computed, shallowRef } from 'vue'
 import { useData } from '../composables/data'
 import { getHeaders, type MenuItem } from '../composables/outline'

@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import type { DefaultTheme } from 'vitepress/theme'
+import type { DefaultTheme } from 'vitepress-wzx/theme'
 import docsearch from '@docsearch/js'
 import { onMounted, watch } from 'vue'
-import { useRouter, useRoute } from 'vitepress'
+import { useRouter, useRoute } from 'vitepress-wzx'
 import { useData } from '../composables/data'
 
 const props = defineProps<{

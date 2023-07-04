@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { DefaultTheme } from 'vitepress/theme'
+import type { DefaultTheme } from 'vitepress-wzx/theme'
 import { computed } from 'vue'
 import VPTeamMembersItem from './VPTeamMembersItem.vue'
 

@@ -2,7 +2,7 @@ import fs from 'fs-extra'
 import getPort from 'get-port'
 import { chromium } from 'playwright-chromium'
 import { fileURLToPath, URL } from 'url'
-import { createServer, scaffold, ScaffoldThemeType } from 'vitepress'
+import { createServer, scaffold, ScaffoldThemeType } from 'vitepress-wzx'
 
 const root = fileURLToPath(new URL('./.temp', import.meta.url))
 

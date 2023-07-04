@@ -1,5 +1,5 @@
 import fs from 'fs'
-import { defineLoader } from 'vitepress'
+import { defineLoader } from 'vitepress-wzx'
 
 type Data = Record<string, boolean>[]
 export declare const data: Data

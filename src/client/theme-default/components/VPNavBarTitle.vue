@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useSidebar } from 'vitepress/theme'
+import { useSidebar } from 'vitepress-wzx/theme'
 import { useData } from '../composables/data'
 import { useLangs } from '../composables/langs'
 import { normalizeLink } from '../support/utils'

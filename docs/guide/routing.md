@@ -310,7 +310,7 @@ You can also access the current page's params via the [`useData`](../reference/r
 
 ```vue
 <script setup>
-import { useData } from 'vitepress'
+import { useData } from 'vitepress-wzx'
 
 // params is a Vue ref
 const { params } = useData()

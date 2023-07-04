@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-import { withBase } from 'vitepress'
+import { withBase } from 'vitepress-wzx'
 import { useData } from './composables/data'
 import { useLangs } from './composables/langs'
 

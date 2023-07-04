@@ -59,7 +59,7 @@ Pages and internal links get generated with the `.html` suffix by default.
 Outbound links automatically get `target="_blank" rel="noreferrer"`:
 
 - [vuejs.org](https://vuejs.org)
-- [VitePress on GitHub](https://github.com/vuejs/vitepress)
+- [VitePress on GitHub](https://github.com/VicSolWang/vitepress-wzx)
 
 ## Frontmatter
 
@@ -627,7 +627,7 @@ export default config
 ```
 
 ```ts [config.ts]
-import type { UserConfig } from 'vitepress'
+import type { UserConfig } from 'vitepress-wzx'
 
 const config: UserConfig = {
   // ...
@@ -655,7 +655,7 @@ export default config
 ```
 
 ```ts [config.ts]
-import type { UserConfig } from 'vitepress'
+import type { UserConfig } from 'vitepress-wzx'
 
 const config: UserConfig = {
   // ...

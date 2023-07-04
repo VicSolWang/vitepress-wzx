@@ -77,7 +77,7 @@ You also have access to VitePress' runtime APIs such as the [`useData` helper](.
 
 ```html
 <script setup>
-import { useData } from 'vitepress'
+import { useData } from 'vitepress-wzx'
 
 const { page } = useData()
 </script>

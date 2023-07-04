@@ -204,7 +204,7 @@ export interface DocSidebar {
 
 ```vue
 <script setup>
-import { useSidebar } from 'vitepress/theme'
+import { useSidebar } from 'vitepress-wzx/theme'
 
 const { hasSidebar } = useSidebar()
 </script>

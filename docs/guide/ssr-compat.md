@@ -69,7 +69,7 @@ VitePress provides a convenience helper for importing Vue components that access
 
 ```vue
 <script setup>
-import { defineClientComponent } from 'vitepress'
+import { defineClientComponent } from 'vitepress-wzx'
 
 const ClientComp = defineClientComponent(() => {
   return import('component-that-access-window-on-import')
@@ -86,7 +86,7 @@ You can also pass props/children/slots to the target component:
 ```vue
 <script setup>
 import { ref } from 'vue'
-import { defineClientComponent } from 'vitepress'
+import { defineClientComponent } from 'vitepress-wzx'
 
 const clientCompRef = ref(null)
 const ClientComp = defineClientComponent(

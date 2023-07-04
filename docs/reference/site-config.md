@@ -29,7 +29,7 @@ export default {
 Using the `defineConfig` helper will provide TypeScript-powered intellisense for config options. Assuming your IDE supports it, this should work in both JavaScript and TypeScript.
 
 ```js
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress-wzx'
 
 export default defineConfig({
   // ...
@@ -41,7 +41,7 @@ export default defineConfig({
 By default, `defineConfig` helper expects the theme config type from default theme:
 
 ```ts
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress-wzx'
 
 export default defineConfig({
   themeConfig: {
@@ -53,7 +53,7 @@ export default defineConfig({
 If you use a custom theme and want type checks for the theme config, you'll need to use `defineConfigWithTheme` instead, and pass the config type for your custom theme via a generic argument:
 
 ```ts
-import { defineConfigWithTheme } from 'vitepress'
+import { defineConfigWithTheme } from 'vitepress-wzx'
 import type { ThemeConfig } from 'your-theme'
 
 export default defineConfigWithTheme<ThemeConfig>({

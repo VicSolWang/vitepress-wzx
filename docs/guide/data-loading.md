@@ -86,7 +86,7 @@ When building a content focused site, we often need to create an "archive" or "i
 
 ```js
 // posts.data.js
-import { createContentLoader } from 'vitepress'
+import { createContentLoader } from 'vitepress-wzx'
 
 export default createContentLoader('posts/*.md', /* options */)
 ```
@@ -136,7 +136,7 @@ The default data may not suit all needs - you can opt-in to transform the data u
 
 ```js
 // posts.data.js
-import { createContentLoader } from 'vitepress'
+import { createContentLoader } from 'vitepress-wzx'
 
 export default createContentLoader('posts/*.md', {
   includeSrc: true, // include raw markdown source?
@@ -176,7 +176,7 @@ export default {
 When using TypeScript, you can type your loader and `data` export like so:
 
 ```ts
-import { defineLoader } from 'vitepress'
+import { defineLoader } from 'vitepress-wzx'
 
 export interface Data {
   // data type
@@ -199,7 +199,7 @@ export default defineLoader({
 To get the configuration information inside a loader, you can use some code like this:
 
 ```ts
-import type { SiteConfig } from 'vitepress'
+import type { SiteConfig } from 'vitepress-wzx'
 
 const config: SiteConfig = (globalThis as any).VITEPRESS_CONFIG
 ```

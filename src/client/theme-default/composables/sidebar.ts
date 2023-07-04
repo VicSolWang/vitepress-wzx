@@ -8,8 +8,8 @@ import {
   watchEffect
 } from 'vue'
 import { useMediaQuery } from '@vueuse/core'
-import { useRoute } from 'vitepress'
-import type { DefaultTheme } from 'vitepress/theme'
+import { useRoute } from 'vitepress-wzx'
+import type { DefaultTheme } from 'vitepress-wzx/theme'
 import { isActive } from '../../shared'
 import {
   hasActiveLink as containsActiveLink,
